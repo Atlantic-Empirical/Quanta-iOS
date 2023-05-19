@@ -1,0 +1,30 @@
+{
+    "UserAgent": "aws-amplify/cli",
+    "Version": "0.1.0",
+	"CredentialsProvider": {
+		"CognitoIdentity": {
+			"Default": {
+				"PoolId": "us-east-1:5fbd6d53-7e11-4af2-842f-dc06db2885cd",
+				"Region": "us-east-1"
+			}
+		}
+	},
+	"IdentityManager": {
+		"Default": {}
+	},
+	"CognitoUserPool": {
+		"Default": {
+			"PoolId": "us-east-1_qEX0vG1or",
+			"AppClientId": "31e5o79uonr6akuuei697li5s0",
+			"AppClientSecret": "1ibi9jko8s3n26g71rabrpl2jstr6j71hgk2idsrdq7bh07pdlb7",
+			"Region": "us-east-1"
+		}
+	},
+	"AppSync": {
+        "Default": {
+            "ApiUrl": "https://d3mzpgsrj9zt41.cloudfront.net",
+            "Region": "us-east-1",
+            "AuthMode": "AWS_IAM"
+        }
+    }
+}
